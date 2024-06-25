@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![]https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2Fmetrotee1&s=50&c=00ff00&bg=00000000&no=2&ff=alien&tb=&ta=
+<img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2Fmetrotee1&s=40&c=00ff00&bg=00000000&no=2&ff=alien&tb=&ta=" alt="visits">
 
 ---
 
