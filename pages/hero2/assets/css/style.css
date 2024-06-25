@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Brose";
+    src: url("../fonts/Brose.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    height: 105vh;
+    width: 100vw;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: rgba(39, 9, 9, 0.596);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 3px solid rgba(17, 10, 10, 0.411);
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.295);
+    transition: background 500ms;
+}
+
+header nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.397);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 80px;
+}
+
+.container .background-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.container .background-container img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.carlogo {
+    width: 15rem;
+}
+
+.card__description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.car-info {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 400px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.car-info h2 {
+    margin-bottom: 10px;
+}
+
+.car-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.car-info ul li {
+    margin-bottom: 20px;
+}
+
+.car-info ul li strong {
+    color: #000000e3;
+}

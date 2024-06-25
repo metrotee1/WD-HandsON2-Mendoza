@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: rgb(185, 181, 181);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 3px solid rgba(8, 5, 5, 0.411);
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.295);
+    transition: background 500ms;
+}
+
+header nav ul li a:hover {
+    background: rgba(238, 238, 238, 0.397);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.carlogo {
+    width: 10rem;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.buttons:hover {
+    font-size: 2rem;
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 10px rgb(3, 3, 3));
+}
+
+.body {
+    background-image: linear-gradient(to right top, hsla(0, 0%, 87%, 0.932), #8b7a7ab2);
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+
+.main_title {
+    color: rgb(8, 60, 104);
+    font-family: Urbanist;
+    font-weight: 500;
+    font-size: 5rem;
+    padding: 10rem;
+}
+
+.title_box {
+    color: rgb(255, 255, 255);
+    font-family: Urbanist;
+    font-weight: 500;
+    font-size: 2rem;
+    padding-left: 50rem;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content1 {
+    padding-left: 10rem;
+    padding-right: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.car1 {
+    width: 200%;
+}
+
+.container1 {
+    color: aliceblue;
+    font-family: Urbanist;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.content2 {
+    padding-left: 60rem;
+    padding-right: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.card2 {
+    background-image: linear-gradient(to right top, hsla(0, 0%, 100%, 0.932), #000000);
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    display: flex;
+}
+
+.nismo {
+    width: 30rem;
+}
+
+.container2 {
+    color: aliceblue;
+    font-family: Urbanist;
+    font-size: 10rem;
+    margin: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 2rem;
+    width: 30rem;
+}
+
+.title2 {
+    font-size: 6.5rem;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+.subtitle2 {
+    font-size: 1rem;
+    padding-bottom: 5rem;
+}
+
+.picture_card {
+    background-color: black;
+}
+
+.dodge {
+    width: 50rem;
+}
+
+.box_text {
+    color: aliceblue;
+    font-family: Urbanist;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.fix {
+    padding-left: 1000rem;
+    padding-right: 1000rem;
+}
+
+.picture_card2 {
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-color: rgb(32, 6, 6);
+    border-radius: 3rem;
+}
+
+.ninja {
+    width: 40rem;
+    border-radius: 2.5rem 2.5rem 0rem 0rem;
+}
+
+.box_text2 {
+    font-family: Urbanist;
+    font-size: 2rem;
+    margin: 0;
+    padding: 5rem;
+}
+
+.ninjaa {
+    font-weight: 800;
+}
+
+.fix2 {
+    padding-left: 40rem;
+    padding-right: 40rem;
+}
+
+.color_box {
+    background-color: rgb(2, 1, 1);
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+
+.zh2_box {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+}
+
+.specs {
+    padding-left: 8rem;
+    padding-right: 10rem;
+    color: rgb(237, 238, 240);
+    font-family: Urbanist;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.card1_anim {
+    padding-left: 90rem;
+    padding-right: 50rem;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    background-color: rgb(39, 39, 39);
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5rem;
+    transition: 0.3s;
+}
+
+.card1_anim:hover {
+    border-style: solid;
+    border-color: rgb(0, 81, 255);
+}
+
+.card2_anim {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right top, hsla(0, 0%, 92%, 0.932), #000000);
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    border-radius: 4rem;
+    display: flex;
+    transition: 0.3s;
+}
+
+.card2_anim:hover {
+    transform: scale(1.2);
+}
+
+.picture_card_anim {
+    background-color: black;
+    transition: 0.5ms;
+}
+
+.picture_card2_anim:hover {
+    background-color: rgb(255, 238, 7);
+    text-shadow: 2px 2px 2px rgb(1, 1, 2);
+    font-weight: 700;
+    transition: 0.5ms;
+    border-style: solid;
+    border-color: rgb(12, 26, 22);
+    transform: scale(1.1);
+}
+
+.picture_card3_anim {
+    background-color: aliceblue;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3rem;
+    transition: 0.3s;
+}
+
+.star_anim {
+    width: 500px;
+    height: 500px;
+    color: rgb(6, 6, 7);
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.star_anim:hover {
+    transform: scale(3);
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    padding: 1rem;
+}
+
+.specs_anim {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    color: aliceblue;
+    font-family: Urbanist;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.specs_anim:hover {
+    transform: scale(1.5);
+    font-weight: 900;
+    font-style: italic;
+    color: black;
+    font-size: 5rem;
+}
+
+.star_box_anim {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    transition: 0.3s;
+}
+
+.star_box_anim:hover {
+    transform: scale(1.1);
+}
+
+.color_box_anim {
+    background-color: rgb(116, 107, 107);
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+    transition: 0.3s;
+}
+
+.color_box_anim:hover {
+    background-image: linear-gradient(to right top, hsla(0, 0%, 81%, 0.932), #000000);
+}
